@@ -70,3 +70,7 @@ submitBtn.addEventListener("click", function() {
 }   
 )
 
+const emptyBtn = document.getElementById('empty');
+emptyBtn.addEventListener("click", function() {
+    location.reload();
+})
