@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul li{
+    list-style-type: none;
+    display: inline-block;
+    text-align: center;
+    margin-right: 1rem;
+}
+
+ul{
+    margin-bottom: 2rem;
+}
+
+main{
+    height: 100vh;
+    width: 100%;
+    color: black;
+    background: linear-gradient(#ff2a00 , #B91450 );
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main h1,
+h2{
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    font-size: 30px;
+}
+
+.box{
+    width: 70%;
+    height: 250px;
+    background-color: #fff;
+    margin-bottom: 2rem;
+    box-shadow: 0 0 20px black;
+    padding: 2rem;
+    text-align: center;
+}
+
+.ticket{
+    text-align: left;
+    color: blac;
+}
+
+.rounded{
+    border-radius: 25px;
+}
+
+label{
+    display: block;
+    color: #BE235B ;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+select{
+    border-radius: 6px;
+    height: 25px;
+    border-color: #BE235B;
+    box-shadow: none;
+    text-align: center;
+}
+
+input{
+    border-radius: 6px;
+    height: 25px;
+    border-color: #BE235B;
+    box-shadow: none;
+    text-align: center;
+}
+
+.btn{
+    margin-right: 5px;
+    height: 30px;
+    padding: 0 1rem;
+    color: #BE235B;
+    font-weight: bold;
+    background-color: #CCCCCC;
+    box-shadow: none;
+    border-radius: 5px ;
+    border-color: none;
+}
+
+.ticket-details{
+    display: flex;
+    padding: 1rem 0;
+}
+
+.ticket-details ul{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem;
+    margin-bottom: 0;
+    border-top: 1px  solid #808080 ;
+    border-bottom: 1px  solid #808080 ;
+}
+
+.ticket-details>div{
+    width: 30%;
+    background-color:#808080 ;
+    padding: 1.5rem;
+    border: 1px  solid #808080 ;
+}
+
+.ticket-details ul li p{
+    margin-bottom: 2.5rem;
+    font-size: 20px;
+    font-weight: bold;
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>    
+    <main>  
+        <h1>Calcola il prezzo del tuo biglietto</h1>
+
+        <div class="box rounded">
+            <div class="input-group">
+                <ul>
+                    <li>
+                        <label for="user-id">Nome e Cognome</label>
+                        <input type="text" name="" id="user-id">
+                    </li>
+
+                    <li>
+                        <label for="km-travel">Km da percorrere</label>
+                        <input type="number" name="" id="km-travel">
+                    </li>
+
+                    <li>
+                        <label for="user-age">Fascia di età</label>
+                        <select name="" id="user-age">
+                            <option value="Maggiorenne">Maggiorenne</option>
+                            <option value="minorenne">Minorenne</option>
+                            <option value="over-65">over 65</option>
+                            <option value=""></option>
+                        </select>
+                    </li>
+                </ul>
+
+                <div class="submit-section">
+
+                    <button class="btn" id="submit">Genera</button>
+                    <button class="btn" id="empty">Annulla</button>
+
+                </div>
+            </div>
+        </div>
+        <h2>il tuo biglietto</h2>
+        <div class="box ticket">
+            <div>
+                <h3>DETTAGLI PASSEGERI</h3>
+                <div class="ticket-details">
+                    <div>
+                        <h3>NOME PASSEGERO</h3>
+                        <span id="user"></span>
+                    </div>
+                    <ul>
+                        <li>
+                            <p>Offerta</p>
+                            <span id="ticket-typeof"></span>
+                        </li>
+
+                        <li>
+                            <p>Carrozza</p>
+                            <span id="wagon-num"></span>
+                        </li>
+
+                        <li>
+                            <p>Codice CP</p>
+                            <span id="cp-code"></span>
+                        </li>
+
+                        <li>
+                            <p>Costo Biglietto</p>
+                            <span id="final-price"></span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- <script src="js/script.js"></script> -->
+</body>
+</html>
